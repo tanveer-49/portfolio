@@ -1,0 +1,39 @@
+name: portfolio_app
+description: A personal portfolio web application
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # UI/UX Dependencies
+  google_fonts: ^6.1.0        # Professional fonts
+  font_awesome_flutter: ^10.6.0 # Social icons
+  animate_do: ^3.1.2          # Animations
+  url_launcher: ^6.2.2        # Open links
+  # flutter_svg: ^2.0.9        # SVG images
+
+  # State Management (Optional)
+  provider: ^6.1.1
+  # Riverpod / GetX bhi use kar sakte ho
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/hospital_db.png
+    - assets/images/unimoves.png
+    - assets/images/profile.jpg
+  # fonts:
+  #   - family: CustomFont
+  #     fonts:
+  #       - asset: assets/fonts/CustomFont-Regular.ttf
