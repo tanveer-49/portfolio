@@ -36,7 +36,7 @@
 
 ---
 
-## ✨ **Features**
+## **Features**
 
 <table>
   <tr>
